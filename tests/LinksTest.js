@@ -2,7 +2,7 @@ let assert = require('assert');
 const addressMaster = "01.tripnet.release/";
 
 module.exports = {
-    // "@disabled":true,
+    "@disabled": true,
     "@tags": ['mainPage', 'redirect'],
     'Check main page redirect test': function (client) {
         var currentUrl = "";

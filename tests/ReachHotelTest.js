@@ -3,7 +3,7 @@ let assert = require('assert');
 const addressMaster = "01.tripnet.release/";
 
 module.exports = {
-    // '@disabled': true,
+    '@disabled': true,
     "@tags": ['hotelPage', 'reach'],
     'Check address test': function (client) {
         client

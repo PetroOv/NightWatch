@@ -6,7 +6,7 @@ var addressHotel = "";
 var languages;
 let hotel;
 module.exports = {
-    // '@disabled': true,
+    '@disabled': true,
     "@tags": ['hotelPage', 'gallery'],
     'Gallery modal open test': function (client) {
 
@@ -14,7 +14,7 @@ module.exports = {
             .init()
             .pause(1000)
             .click('.photo-hover')
-            .waitForElementVisible('#lightbox', 7000, "Gallery is loaded after clicking on show all photos");
+            .waitForElementVisible('#lightbox', 10000, "Gallery is loaded after clicking on show all photos");
             // .verify.visible('#lightbox');
         client.expect.element('#lightbox').to.have.css('display').which.equals('block');
         client.pause(1000)

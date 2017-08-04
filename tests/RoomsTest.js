@@ -12,7 +12,7 @@ module.exports = {
             .init()
             .pause(1000)
             .click('.avail-form__submit')
-            .waitForElementVisible('.results.js-rooms-cont', 7000);
+            .waitForElementVisible('.results.js-rooms-cont', 7000, false);
         client.elements("css selector", ".show-more-rates.js-rates-show", function (spans) {
             let els = spans.value;
             els.forEach(function (name, k, namelz) {

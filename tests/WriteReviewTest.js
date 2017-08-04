@@ -2,7 +2,7 @@
 let assert = require('assert');
 
 module.exports = {
-    // '@disabled': true,
+    '@disabled': true,
     "@tags": ['writeReviewPage', 'review'],
     'Footer contacs redirect test': function (client) {
         client
